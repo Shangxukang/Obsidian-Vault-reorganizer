@@ -4,13 +4,13 @@ Obsidian以Markdown为语法记笔记，文件中的图片通常仅以`![[xxx.pn
 
 因此在**跨 Vault 迁移笔记**时，图片文件往往不会随笔记一起移动，导致迁移后的笔记中出现图片丢失、无法渲染的问题。
 
-本工具用于**一键将旧 Vault 中对应的图片迁移到新 Vault 中**。
+本工具用于**一键将旧 Vault 中对应的图片迁移到新 Vault 中**。支持`.png`和`.jpg`两种格式的图片。
 
 Obsidian uses Markdown syntax for note-taking. Images in notes are usually referenced as `![[xxx.png]]` or `![[assets/xxx.png|300]]`, without full file paths.
 
 As a result, when **migrating notes across Vaults**, image files often do not move together with the notes, leading to missing images and rendering issues in the new Vault.
 
-This tool is designed to **migrate the corresponding image files from the old Vault to the new Vault in one step**, ensuring that images are preserved and rendered correctly after migration.
+This tool is designed to **migrate the corresponding image(`.png` and `.jpg`) files from the old Vault to the new Vault in one step**, ensuring that images are preserved and rendered correctly after migration.
 
 ---
 
